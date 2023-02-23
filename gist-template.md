@@ -48,8 +48,7 @@ In regex, using the `+` as a greedy match, we see in our email validator that th
 
 As a newer programmer, I was happy to tackle this regex tutorial as it helped me to better understand regex myself, and how useful they can be! I plan to hone my back-end skills as I believe I have a knack for building new code and refactoring existing code. This comes from a love of puzzles of all kinds and the desire to figure out how things work. 
 <br>
-Here's a liknk to
-https://github.com/EmilyBernard/Mod17-regexTutorial
+
 
 ## Acknowlegements
 https://cheatography.com/davechild/cheat-sheets/regular-expressions/
