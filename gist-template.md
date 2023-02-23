@@ -16,10 +16,7 @@ Regex at first glance is just a jumble of all the letters, numbers, and special 
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
@@ -35,19 +32,12 @@ Anchors define sections of the expression as the beginning or end. They are used
 ### Quantifiers
 Quantifiers define how many instances of a character, group, or character class must be present in the user input to be validated. The `{2,6}` quantifier above requires that the 2nd portion of the domain name (i.e. yahoo, gmail, gov) be at minimum 2 and maximum 6 characters.
 
-### OR Operator
-The "OR" operator is simply the `|` symbol used to match characters or expressions of either the left or right of the `|` operator. It is not used in the above, but a common use 
-
 ### Character Classes
 A character class is a set of defined characters within square brackets. In our expression, `[a-z0-9_\.-]` defines the possible characters that would be valid for the local-part of the user's email before the @ symbol.
 In addition the `[\da-z\.-]` and `[a-z\.]` components define the possible characters that are valid in the domain name (eg. hotmail.com)before and after the `.` that separates them.
 
-### Flags
-Flags in regex override certain defaults and indicate
-
-### Grouping and Capturing
-
 ### Bracket Expressions
+
 
 ### Greedy and Lazy Match
 
