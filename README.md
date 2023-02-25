@@ -23,3 +23,7 @@
 
 ## GitHub Repository Link
 https://github.com/EmilyBernard/Mod17-regexTutorial
+<br>
+
+## Gist URL:
+https://gist.github.com/EmilyBernard/07e188d174ac05e523fc5d6424494f84
